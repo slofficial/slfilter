@@ -1,15 +1,15 @@
 {
-    "name": "UFS Auto Filter Bot V3",
+    "name": "Sl official  Auto Filter Bot",
     "description": "A Filter Bot Which Doesnt Need Manuall Filter Adding",
-    "logo": "https://telegra.ph/file/b62f9703cf805da50d5c4.jpg",
+    "logo": "https://telegra.ph/file/467b8391cdd157b25a486.jpg",
     "keywords": [
         "Auto",
         "Filter",
         "Mongo DB"
     ],
-    "website": "https://github.com/jinspalakkattu",
-    "repository": "https://github.com/jinspalakkattu/UFS-Adv-Auto-Filter-Bot-V3",
-    "success_url": "https://t.me/joinchat/7qlEga5lO0o2MTg0",
+    "website": "https://github.com/Sahanhishara500",
+    "repository": "https://github.com/Sahanhishara500/slfilter",
+    "success_url": "https://t.me/slofficialcommunity",
     "env": {
         "APP_ID": {
             "description": "Your APP ID From my.telegram.org or @UseTGXBot",
