@@ -62,7 +62,7 @@ async def auto_filter(bot, update):
     if filters:
         #results.append(
         #        [
-        #            InlineKeyboardButton("⭕️ JOIN OUR MAIN CHANNEL ⭕️", url="https://t.me/UFStudio2")
+        #            InlineKeyboardButton("👑  JOIN OUR MAIN CHANNEL  👑", url="https://t.me/slofficialmain")
         #        ]
         #    ) 
         for filter in filters: # iterating through each files
@@ -86,7 +86,7 @@ async def auto_filter(bot, update):
                 file_GB = f"[{str(round((file_size/(1024*1024)),2))} GB]"
                 size = file_GB
                 
-            file_name = size + " - 🎬 " + file_name
+            file_name = " - 🗂 " + file_name 
             
             print(file_name)
             #file_size = str(file_size) + " KB" if file_size < 1024 elif file_size < 1024 else str(round(file_size/1024)) + " GiB"  #"📁 " + 
@@ -137,8 +137,8 @@ async def auto_filter(bot, update):
     else:
         Send_message=await bot.send_video(
                 chat_id = update.chat.id,
-                video="https://telegra.ph/file/3e9f7db0c98e6b236c2c7.mp4",
-                caption=f"Couldn't Find This Movie.Please Try Again Or Search On Our <b><a href='https://t.me/UFStudio2'>Channel</a></b>. \n\nഈ സിനിമയുടെ ഒറിജിനൽ പേര് ഗൂഗിളിൽ പോയി കണ്ടെത്തി അതുപോലെ ഇവിടെ കൊടുക്കുക 🥺",
+                video="https://user-images.githubusercontent.com/85470759/126434524-55a1acd7-26a9-4026-a7e6-cbbbfc065886.png",
+                caption=f" අපිට ඔයා හොයන දේ හොයාගන්න බැරිවුනා. අපේ Channel වලට ගිහින් seaerch කරල බලන්න.🥺",
                 parse_mode="html",
                 reply_to_message_id=update.message_id
             )
@@ -172,7 +172,7 @@ async def auto_filter(bot, update):
         
         # Just A Decaration
         result[0].append([
-            InlineKeyboardButton(f"🔰 Page 1/{len_result if len_result < max_pages else max_pages} 🔰", callback_data="ignore")
+            InlineKeyboardButton(f"☘️ Page 1/{len_result if len_result < max_pages else max_pages} ☘️", callback_data="ignore")
         ])
         
         
@@ -219,7 +219,7 @@ async def auto_filter(bot, update):
         ibuttonss = []
         ibuttonss.append(
                         [
-                            InlineKeyboardButton("⭕️ CONTACT ME ⭕️", url="https://t.me/UFSChatBot")
+                            InlineKeyboardButton("⚫️  JOIN OUR MAIN CHANNEL  ⚫️", url="https://t.me/slofficialmain")
                         ]
                     )
         for x in ibuttonss:
@@ -230,7 +230,7 @@ async def auto_filter(bot, update):
         try:
             await bot.send_message(
                 chat_id = update.chat.id,
-                text=f"We Found <code><b><i>{(len_results)}</i></b></code> Results For Your Query: <code><b><i>{query}</i></b></code>, Requested By <b><code>{update.from_user.first_name}</code></b>",
+                text=f"මේකද බලන්න  <code><b><i>{(len_results)}</i></b></code> <b><code>{update.from_user.first_name}</code></b> හෙව්ව: <code><b><i>{query}</i></b></code>, ",
                 reply_markup=reply_markup,
                 parse_mode="html",
                 reply_to_message_id=update.message_id
