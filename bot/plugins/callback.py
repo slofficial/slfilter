@@ -52,7 +52,7 @@ async def cb_navg(bot, update: CallbackQuery):
         VERIFY[str(chat_id)] = admin_list
     
     if not ((user_id == ruser_id) or (user_id in admin_list)): # Checks if user is same as requested user or is admin
-        await update.answer("Nice Try! But, This Is Not For You;)",show_alert=True)
+        await update.answer("හොද උත්සායක් ඒ වුනාට මේක ඔයාට නෙවේ;)",show_alert=True)
         return
 
 
@@ -95,7 +95,7 @@ async def cb_navg(bot, update: CallbackQuery):
 
     if not int(index_val) == 0:    
         temp_results.append([
-            InlineKeyboardButton(f"🔰 Page {index_val + 1}/{len(results) if len(results) < max_pages else max_pages} 🔰", callback_data="ignore")
+            InlineKeyboardButton(f"☘️ Page {index_val + 1}/{len(results) if len(results) < max_pages else max_pages} ☘️", callback_data="ignore")
         ])
     
     if show_invite and int(index_val) !=0 :
