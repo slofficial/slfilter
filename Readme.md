@@ -1,18 +1,18 @@
-# UFS Adv Auto Filter Bot V3
+# autofilterbot
 
 <p align="center">
-  <a href="https://github.com/jinspalakkattu/UFS-Adv-Auto-Filter-Bot-V3/stargazers">
+  <a href="https://github.com/Sahanhishara500/slfilter/stargazers">
     <img src="https://img.shields.io/github/stars/jinspalakkattu/UFS-Adv-Auto-Filter-Bot-V3?style=social">
 
   </a>
   
-  <a href="https://github.com/jinspalakkattu/UFS-Adv-Auto-Filter-Bot-V3/fork">
+  <a href="https://github.com/Sahanhishara500/slfilter/fork">
     <img src="https://img.shields.io/github/forks/jinspalakkattu/UFS-Adv-Auto-Filter-Bot-V3?label=Fork&style=social">
 
   </a>  
 </p>
 
-__This Is Just An Simple Advance Auto Filter Bot Complete Rewritten Version Of [Adv-Filter-Bot](https://github.com/jinspalakkattu/UFS-Adv-Auto-Filter-Bot-V3)..__
+__This Is Just An Simple Advance Auto Filter Bot Complete Rewritten Version Of [Adv-Filter-Bot](https://github.com/Sahanhishara500/slfilter)..__
 
 __Just Sent Any Text As Query It Will Search For All Connected Chat's Files In Its MongoDB And Reply You With The Message Link As A Button__
 
@@ -73,7 +73,7 @@ You can deploy this bot anywhere.
 <details><summary>Deploy To Heroku</summary>
 <p>
 <br>
-<a href="https://heroku.com/deploy?template=https://github.com/jinspalakkattu/UFS-Adv-Auto-Filter-Bot-V3">
+<a href="https://heroku.com/deploy?template=https://github.com/Sahanhishara500/slfilter">
   <img src="https://www.herokucdn.com/deploy/button.svg" alt="Deploy">
 </a>
 </p>
@@ -82,7 +82,7 @@ You can deploy this bot anywhere.
 <details><summary>Deploy To VPS</summary>
 <p>
 <pre>
-git clone https://github.com/jinspalakkattu/UFS-Adv-Auto-Filter-Bot-V3
+git clone https://github.com/Sahanhishara500/slfilter
 cd Adv-Auto-Filter-Bot-ReMaster
 pip3 install -r requirements.txt
 # Change The Vars Of bot/__init__.py File Accordingly
@@ -92,7 +92,7 @@ python3 -m bot
 </details>
 
 ## Support   
-Join Our [Telegram Group](https://t.me/joinchat/YS-WlsUC9nFiOWM0) For Support/Assistance And Our [Channel](https://t.me/joinchat/7qlEga5lO0o2MTg0) For Updates.   
+Join Our [Telegram Group](https://t.me/slofficialcommunity) For Support/Assistance And Our [Channel](https://t.me/slofficialcommunity) For Updates.   
    
 Report Bugs, Give Feature Requests There..   
 Do Fork And Star The Repository If You Liked It.
