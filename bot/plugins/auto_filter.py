@@ -137,7 +137,7 @@ async def auto_filter(bot, update):
     else:
         Send_message=await bot.send_video(
                 chat_id = update.chat.id,
-                video="https://user-images.githubusercontent.com/85470759/126434524-55a1acd7-26a9-4026-a7e6-cbbbfc065886.png",
+                video=
                 caption=f" අපිට ඔයා හොයන දේ හොයාගන්න බැරිවුනා. අපේ Channel වලට ගිහින් seaerch කරල බලන්න.🥺",
                 parse_mode="html",
                 reply_to_message_id=update.message_id
@@ -230,7 +230,7 @@ async def auto_filter(bot, update):
         try:
             await bot.send_message(
                 chat_id = update.chat.id,
-                text=f"මේකද බලන්න  <code><b><i>{(len_results)}</i></b></code> <b><code>{update.from_user.first_name}</code></b> හෙව්ව: <code><b><i>{query}</i></b></code>, ",
+                text=f"මේකද බලන්න  <b><code>{update.from_user.first_name}</code></b> හෙව්ව <code><b><i>{query}</i></b></code>, ",
                 reply_markup=reply_markup,
                 parse_mode="html",
                 reply_to_message_id=update.message_id
