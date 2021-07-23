@@ -8,11 +8,11 @@ class Translation(object):
     START_TEXT = """<b>Hey {}!!</b>
 <i>Am Just A Advance Auto Filter Bot....😉
 
-Only For <b><u><a href="https://t.me/joinchat/TRlZZilyh-MVa66t">Universal Film Studio Group</a></u></b>
+Only For <b><u><a href="https://t.me/slofficialcommunity">slofficialcommunity Group</a></u></b>
 
 For More Details Click Help Button Below..
 
-<b><u><a href="https://t.me/joinchat/YS-WlsUC9nFiOWM0">UFS Bot Support Group</a></u></b>
+<b><u><a href="https://t.me/slofficialcommunity">slofficial Bot Support Group</a></u></b>
 </i>"""    
     
     HELP_TEXT = """
@@ -45,7 +45,7 @@ For More Details Click Help Button Below..
             
             -> <code>Status</code> - Button Will Shows The Stats Of Your Channel
             
-<b><u><a href="https://t.me/joinchat/YS-WlsUC9nFiOWM0">UFS Bot Support Group</a></u></b>
+<b><u><a href="https://t.me/slofficialcommunity">slofficial Bot Support Group</a></u></b>
 """
     
     ABOUT_TEXT = """<b>➥ Name</b> : <code> Advanced Auto Filter Bot</code>
