@@ -137,8 +137,8 @@ async def auto_filter(bot, update):
     else:
         Send_message=await bot.send_video(
                 chat_id = update.chat.id,
-                video=
-                caption=f" අපිට ඔයා හොයන දේ හොයාගන්න බැරිවුනා. අපේ Channel වලට ගිහින් seaerch කරල බලන්න.🥺",
+                video="https://telegra.ph/file/0e7c8e07d614cf5e5d6bd.gif",
+                caption=f"අපිට ඔයා හොයන දේ හොයාගන්න බැරිවුනා. අපේ Channel වලට ගිහින් seaerch කරල බලන්න.🥺",
                 parse_mode="html",
                 reply_to_message_id=update.message_id
             )
