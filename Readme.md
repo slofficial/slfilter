@@ -1,18 +1,18 @@
 # autofilterbot
 
 <p align="center">
-  <a href="https://github.com/Sahanhishara500/slfilter/stargazers">
+  <a href="https://github.com/slofficial/slfilter/stargazers">
     <img src="https://img.shields.io/github/stars/jinspalakkattu/UFS-Adv-Auto-Filter-Bot-V3?style=social">
 
   </a>
   
-  <a href="https://github.com/Sahanhishara500/slfilter/fork">
+  <a href="https://github.com/slofficial/slfilter/fork">
     <img src="https://img.shields.io/github/forks/jinspalakkattu/UFS-Adv-Auto-Filter-Bot-V3?label=Fork&style=social">
 
   </a>  
 </p>
 
-__This Is Just An Simple Advance Auto Filter Bot Complete Rewritten Version Of [Adv-Filter-Bot](https://github.com/Sahanhishara500/slfilter)..__
+__This Is Just An Simple Advance Auto Filter Bot Complete Rewritten Version Of [Adv-Filter-Bot](https://github.com/slofficial/slfilter)..__
 
 __Just Sent Any Text As Query It Will Search For All Connected Chat's Files In Its MongoDB And Reply You With The Message Link As A Button__
 
@@ -73,7 +73,7 @@ You can deploy this bot anywhere.
 <details><summary>Deploy To Heroku</summary>
 <p>
 <br>
-<a href="https://heroku.com/deploy?template=https://github.com/Sahanhishara500/slfilter">
+<a href="https://heroku.com/deploy?template=https://github.com/slofficial/slfilter">
   <img src="https://www.herokucdn.com/deploy/button.svg" alt="Deploy">
 </a>
 </p>
